@@ -1,0 +1,21 @@
+.App {
+  @apply text-center;
+}
+
+.App-logo {
+  @apply pointer-events-none h-64 text-blue-300 fill-current;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    @apply animate-spin-20;
+  }
+}
+
+.App-header {
+  @apply bg-gray-900 min-h-screen flex flex-col items-center justify-center text-white;
+}
+
+.App-link {
+  @apply text-blue-300;
+}
